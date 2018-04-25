@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.horizontal-gradient {
+  background: linear-gradient(to right, blue, green);
+}
+#to-do-box {
+  width: 400px;
+  background-color: white;
+  margin: 70px auto;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+}
+#to-do-header {
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+#right {
+  float: right;
+}
+h1 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+li {
+  height: 12px;
+  padding: 10px;
+  font-size: 12px;
+  vertical-align: center;
+}
+li:nth-of-type(2n) {
+  background-color: lightgray;
+}
+ul:nth-child(2n + 1) {
+  background-color: white;
+}
+input {
+  border: 2px solid steelblue;
+  width: 396px;
+  height: 40px;
+  padding: 0;
+}
+.delete {
+  background-color: red;
+  height: 22px;
+}
